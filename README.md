@@ -28,19 +28,19 @@ The goal of AI-Prof is to provide:
 ## 🛠 Tech Stack
 
 - **Programming Language:** Python  
-- **LLMs:** OpenAI / Azure OpenAI / Open-source LLMs  
-- **Frameworks:** LangChain (optional)  
-- **Embedding Models:** Sentence Transformers / OpenAI Embeddings  
-- **Vector Store (Optional):** FAISS / Chroma / Pinecone  
+- **LLMs:** 
+- **Frameworks:** LangChain 
+- **Embedding Models:** 
+- **Vector Store (Optional):** Chroma & Pinecone  
 
 ---
 
 ## 🧩 Architecture (High Level)
 
 User Query  
-→ Prompt Processing  
-→ AI Model  
-→ AI-Prof Response  
+→ 
+→   
+→   
 
 (Optional extensions: RAG, document retrieval, tools)
 
