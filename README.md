@@ -11,7 +11,7 @@ The goal of AI-Prof is to provide:
 - Clear and accurate answers to ML & AI queries
 - Conceptual explanations with intuition
 - A simple, interactive learning experience
-- A scalable foundation for advanced AI tutoring systems
+- A scalable foundation for advanced AI tutoring system
 
 ---
 
