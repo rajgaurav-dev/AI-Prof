@@ -2,7 +2,7 @@ import torch
 from transformers import AutoTokenizer, AutoModelForCausalLM, pipeline
 from langchain_community.vectorstores import FAISS
 from langchain_community.embeddings import HuggingFaceEmbeddings
-
+from langchain_huggingface import ChatHuggingFace, HuggingFaceEndpoint
 # ==============================
 # CONFIG
 # ==============================
@@ -95,10 +95,10 @@ Answer:
         temperature=0.1,
         do_sample=False
     )
-    output = response[0]["generated_text"]
-    print("\n🔍 LLM Output:\n", output)
+    answer = response[0]["generated_text"]
+    print("\n🔍 LLM Output:\n", answer)
 # Remove prompt portion
-    answer = output[len(prompt):]
+    # answer = output[len(prompt):]
     
     print("\n📘 Answer:\n", answer.strip())
     # print("\n📘 Answer:\n")

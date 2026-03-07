@@ -1,0 +1,6 @@
+What is linear regression?|Linear regression models the relationship between input variables and a continuous output using a linear function.
+What is polynomial regression?|Polynomial regression extends linear regression by modeling nonlinear relationships using polynomial basis functions.
+What is logistic regression?|Logistic regression is a classification model that predicts probabilities using the sigmoid function applied to a linear combination of inputs.
+What is bias variance tradeoff?|Bias variance tradeoff states that prediction error can be decomposed into bias squared and variance.
+What is model variance?|Variance measures how much a model's predictions change when trained on different datasets.
+What is model bias?|Bias measures the difference between the expected model prediction and the true value.
